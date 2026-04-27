@@ -1,4 +1,4 @@
-# Traktor Mapping Automation Notes
+# Traktor TSI Field Guide
 
 Practical notes for safely inspecting, editing, and expanding Native Instruments Traktor controller mappings.
 
