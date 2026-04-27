@@ -1,6 +1,6 @@
 # Traktor AI Mapping Notes
 
-Practical notes for using AI coding agents to inspect, edit, and expand Native Instruments Traktor controller mappings.
+Practical notes for safely inspecting, editing, and expanding Native Instruments Traktor controller mappings.
 
 The goal is to help Traktor users automate careful edits to exported `.tsi` files without manually clicking hundreds of rows in Controller Manager. The emphasis is safety: small edits, backups, seed exports, and repeatable verification.
 
@@ -10,8 +10,7 @@ This repository intentionally does not include any personal Traktor settings, ma
 
 - Traktor users with complex MIDI mappings.
 - DJs building mappings across several controllers or decks.
-- AI agents and coding assistants helping edit exported `.tsi` files.
-- Developers trying to understand enough of the `.tsi` structure to make conservative edits.
+- Developers and tool builders trying to understand enough of the `.tsi` structure to make conservative edits.
 
 ## Core Principle
 
@@ -30,7 +29,7 @@ Use this workflow instead:
 
 ## Repository Contents
 
-- [Agent Workflow](docs/agent-workflow.md): how an AI agent should approach `.tsi` editing.
+- [Automation Workflow](docs/automation-workflow.md): a cautious workflow for automated `.tsi` editing.
 - [TSI Format Notes](docs/tsi-format-notes.md): observed structure and frame parsing rules.
 - [Mapping Patterns](docs/mapping-patterns.md): reusable patterns for modifiers, deck targeting, grids, and layered controls.
 - [Troubleshooting](docs/troubleshooting.md): what import hangs usually mean and how to recover.
@@ -40,10 +39,10 @@ Use this workflow instead:
 
 The most useful public reference found during this work was [Super Xtreme Mapper](https://github.com/SuperXtremeMapper/super-xtreme-mapper). Its source and documentation helped clarify frame semantics, especially frame sizes and nested mapping structures.
 
-This repository is not a replacement for a full Traktor mapping editor. It is a field guide for careful AI-assisted mapping work.
+This repository is not a replacement for a full Traktor mapping editor. It is a field guide for careful mapping automation.
 
 ## License
 
-These notes are licensed under CC BY 4.0. That makes the material easy for people and AI agents to reuse with attribution.
+These notes are licensed under CC BY 4.0. That makes the material easy for people, tools, and documentation projects to reuse with attribution.
 
 If this repo later grows executable tooling, consider licensing code files under MIT while keeping documentation under CC BY 4.0.

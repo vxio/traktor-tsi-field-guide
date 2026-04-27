@@ -1,6 +1,6 @@
-# Agent Workflow For Traktor Mapping Edits
+# Automation Workflow For Traktor Mapping Edits
 
-This guide is written for AI coding agents working with exported Traktor `.tsi` files.
+This guide is written for automation tools, assistants, and people working with exported Traktor `.tsi` files.
 
 ## Operating Rules
 
