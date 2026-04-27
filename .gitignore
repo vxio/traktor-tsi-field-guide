@@ -1,0 +1,24 @@
+# Never commit user exports, backups, collections, logs, or generated Traktor data.
+*.tsi
+*.nckf1
+*.nml
+*.nml.gz
+*.log
+*.dat
+
+Backup/
+History/
+Logs/
+Coverart/
+Stripes/
+Transients/
+Crashlogs/
+Collection Backups*/
+tsi-seeds/
+
+.DS_Store
+*.tmp
+*.bak
+node_modules/
+.venv/
+__pycache__/
