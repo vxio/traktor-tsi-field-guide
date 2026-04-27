@@ -1,4 +1,4 @@
-# Traktor AI Mapping Notes
+# Traktor Mapping Automation Notes
 
 Practical notes for safely inspecting, editing, and expanding Native Instruments Traktor controller mappings.
 

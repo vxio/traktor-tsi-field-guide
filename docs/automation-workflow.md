@@ -1,6 +1,6 @@
 # Automation Workflow For Traktor Mapping Edits
 
-This guide is written for automation tools, assistants, and people working with exported Traktor `.tsi` files.
+This guide is written for automation tools and people working with exported Traktor `.tsi` files.
 
 ## Operating Rules
 
