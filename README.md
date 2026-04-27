@@ -6,6 +6,8 @@ The goal is to help Traktor users automate careful edits to exported `.tsi` file
 
 This repository intentionally does not include any personal Traktor settings, mapping exports, backups, collections, logs, or device-specific private layouts.
 
+This is an independent field guide. It is not affiliated with or endorsed by Native Instruments.
+
 ## Who This Is For
 
 - Traktor users with complex MIDI mappings.
@@ -32,14 +34,27 @@ Use this workflow instead:
 - [Automation Workflow](docs/automation-workflow.md): a cautious workflow for automated `.tsi` editing.
 - [TSI Format Notes](docs/tsi-format-notes.md): observed structure and frame parsing rules.
 - [Mapping Patterns](docs/mapping-patterns.md): reusable patterns for modifiers, deck targeting, grids, and layered controls.
+- [Edit Review Checklist](docs/edit-review-checklist.md): a checklist to run before importing an edited mapping.
 - [Troubleshooting](docs/troubleshooting.md): what import hangs usually mean and how to recover.
 - [Privacy And Sanitization](docs/privacy-and-sanitization.md): what not to commit.
+
+## Safety Notice
+
+Bad `.tsi` edits can cause Traktor to hang or crash on import. Always keep a known-good export and a rollback copy before testing an edited mapping.
 
 ## Relationship To Existing Tools
 
 The most useful public reference found during this work was [Super Xtreme Mapper](https://github.com/SuperXtremeMapper/super-xtreme-mapper). Its source and documentation helped clarify frame semantics, especially frame sizes and nested mapping structures.
 
 This repository is not a replacement for a full Traktor mapping editor. It is a field guide for careful mapping automation.
+
+## Attribution
+
+If you reuse or adapt these notes, attribute the project as:
+
+```text
+Traktor TSI Field Guide, https://github.com/vxio/traktor-tsi-field-guide
+```
 
 ## License
 
