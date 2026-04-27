@@ -48,14 +48,6 @@ The most useful public reference found during this work was [Super Xtreme Mapper
 
 This repository is not a replacement for a full Traktor mapping editor. It is a field guide for careful mapping automation.
 
-## Attribution
-
-If you reuse or adapt these notes, attribute the project as:
-
-```text
-Traktor TSI Field Guide, https://github.com/vxio/traktor-tsi-field-guide
-```
-
 ## License
 
 These notes are licensed under CC BY 4.0. That makes the material easy for people, tools, and documentation projects to reuse with attribution.
